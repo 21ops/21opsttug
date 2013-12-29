@@ -4,8 +4,8 @@ In this article we show you how to install and properly configure a PPTP VPN ser
 First need enable tun module (tunelling kernel module):
 
 ```Shell
-echo 'modprobe tun' >> /etc/rc.modules
-chmod +x /etc/rc.modules
+#echo 'modprobe tun' >> /etc/rc.modules
+#chmod +x /etc/rc.modules
 ```
 
 At next boot will be loaded tun module in kernel
