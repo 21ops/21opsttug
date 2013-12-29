@@ -78,7 +78,7 @@ source ./vars
 ./clean-all
 ./build-ca
 ```
-
+<img src='http://img01.21ops.com/images/2013/12/7/2c78ca777cb1b31cc03ff23ae2591637.png'>
 Build our Certificate Authority
 
 现在，我们有我们的CA了，我们将创建我们的OpenVPN服务器证书。当集中密钥服务器询问的时候，回答是肯定的。
@@ -92,7 +92,7 @@ cd /etc/openvpn/easy-rsa/keys
 cp dh1024.pem ca.crt server.crt server.key /etc/openvpn
 ```
 
-
+<img src='http://img01.21ops.com/images/2013/12/7/59ca1a84b64d69c1f2ce3b2e8068860a.png'>
 run build-dh script
 
 为了让客户端进行身份验证，我们需要创建客户端证书。您可以重复为每个客户端或设备产生一个唯一的证书和密钥。如果你规划超过一对以上的密钥对，一定要使用描述清楚文件的名字。
