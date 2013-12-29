@@ -4,10 +4,10 @@ OpenVPN is an open source software application that implements virtual private n
 
 OpenVPN allows peers to authenticate each other using a pre-shared secret key, certificates, or username/password. When used in a multiclient-server configuration, it allows the server to release an authentication certificate for every client, using signature and Certificate authority. It uses the OpenSSL encryption library extensively, as well as the SSLv3/TLSv1 protocol, and contains many security and control features. [More info about OpenVPN](http://en.wikipedia.org/wiki/Openvpn)
 
-`
+>
 Before we begin, you’ll need to have the Extra Packages for Enterprise Linux (EPEL) Repository enabled on your server.
 Enable Epel repository on CentOS 5.x/6.x
-`
+
 ```Shell
 # yum update
 ```
