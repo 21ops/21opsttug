@@ -19,10 +19,10 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 的状态文件，并显示相应的标记在地图上使用谷歌地图。我建议Nagios的文件目录中创建新的子目录： 
 
 '''shell
-cd /usr/share/nagios/
-wget http://labs.shmu.org.uk/nagmap/nagmap-0.11.tar.gz
-tar -xvzf nagmap-0.11.tar.gz
-rm nagmap-0.11.tar.gz
+    cd /usr/share/nagios/
+    wget http://labs.shmu.org.uk/nagmap/nagmap-0.11.tar.gz
+    tar -xvzf nagmap-0.11.tar.gz
+    rm nagmap-0.11.tar.gz
 '''
 一旦解压缩归档文件，它是必要的设置路径Nagios的状态文件在Nagmap文件status.php的。在我的情况下，Nagios的status.dat文件位于/ VAR /的nagios/ status.dat的中，所以我有以下行在nagmap status.php：
 
