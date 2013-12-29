@@ -80,8 +80,9 @@ source ./vars
 ./clean-all
 ./build-ca
 ```
+<src img='http://lintut.com/wp-content/uploads/2013/09/Screenshot-from-2013-09-23-234109.png'>
  Build our Certificate Authority
-Build our Certificate Authority
+
 Now that we have our CA, we’ll create our certificate for the OpenVPN server. When asked by build-key-server, answer yes to commit.
 ```Shell
 ./build-key-server server
@@ -93,7 +94,7 @@ cd /etc/openvpn/easy-rsa/keys
 cp dh1024.pem ca.crt server.crt server.key /etc/openvpn
 ```
 
-
+<src img='http://lintut.com/wp-content/uploads/2013/09/Screenshot-from-2013-09-23-234558.png'>
 run build-dh script
 
  
