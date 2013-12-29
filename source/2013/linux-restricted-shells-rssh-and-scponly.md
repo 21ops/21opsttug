@@ -78,3 +78,6 @@ test.file                             100%  983     1.0KB/s   00:00
 Further Reading
 ```
 rssh support chroot environments for scp, rsync and other transfer protocols. It means that you can restrict users not only by command they can use but also by filesystems they reach. For example, user1 can be chrooted to /chroot_user1 so it can’t be used to copy something from /etc or /var/www directories of the server. Here is nice manual about chroot in rssh.
+
+英文原文:[linux-restricted-shells-rssh-and-scponly](http://www.linuxscrew.com/2012/07/05/linux-restricted-shells-rssh-and-scponly/)
+
