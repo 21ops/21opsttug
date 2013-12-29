@@ -18,18 +18,18 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 从项目的下载部分下载nagmap压缩包并解压Nagios监控系统所在的服务器上的某个地方。下载的文件中包含PHP脚本访问Nagios
 的状态文件，并显示相应的标记在地图上使用谷歌地图。我建议Nagios的文件目录中创建新的子目录： 
 
-
-'''cd /usr/share/nagios/
-    wget http://labs.shmu.org.uk/nagmap/nagmap-0.11.tar.gz
-    tar -xvzf nagmap-0.11.tar.gz
-    rm nagmap-0.11.tar.gz
+'''shell
+cd /usr/share/nagios/
+wget http://labs.shmu.org.uk/nagmap/nagmap-0.11.tar.gz
+tar -xvzf nagmap-0.11.tar.gz
+rm nagmap-0.11.tar.gz
 '''
-
 一旦解压缩归档文件，它是必要的设置路径Nagios的状态文件在Nagmap文件status.php的。在我的情况下，Nagios的status.dat文件位于/ VAR /的nagios/ status.dat的中，所以我有以下行在nagmap status.php：
 
 '''
 $fp = fopen("/var/nagios/status.dat","r");
 '''
+
 
 
 这是自然的，Web服务器必须有足够的权限读取的/ var/的nagios/ status.dat的文件。下一步是建立地理位置的主机应该显示在Nagmap。应具体说明以下列方式：
