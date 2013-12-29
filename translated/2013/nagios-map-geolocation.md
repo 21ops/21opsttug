@@ -18,7 +18,7 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 从项目的下载部分下载nagmap压缩包并解压Nagios监控系统所在的服务器上的某个地方。下载的文件中包含PHP脚本访问Nagios
 的状态文件，并显示相应的标记在地图上使用谷歌地图。我建议Nagios的文件目录中创建新的子目录： 
 
-```Bash
+```Shell
     cd /usr/share/nagios/
     wget http://labs.shmu.org.uk/nagmap/nagmap-0.11.tar.gz
     tar -xvzf nagmap-0.11.tar.gz
@@ -26,7 +26,7 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 ```
 一旦解压缩归档文件，它是必要的设置路径Nagios的状态文件在Nagmap文件status.php的。在我的情况下，Nagios的status.dat文件位于/ VAR /的nagios/ status.dat的中，所以我有以下行在nagmap status.php：
 
-```Python
+```Shell
     $fp = fopen("/var/nagios/status.dat","r");
 ```
 
@@ -35,7 +35,7 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 这是自然的，Web服务器必须有足够的权限读取的/ var/的nagios/ status.dat的文件。下一步是建立地理位置的主机应该显示在Nagmap。应具体说明以下列方式：
 
 
-```JavaScript
+```Shell
     define host {
             use generic-host
             host_name HostName1
@@ -47,6 +47,13 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 ```
 
 其中“40.664167，-73.938611”（纽约市在这个例子中）的主机的经度和纬度。所以，你应该增加“音符经纬度"线到Nagios
-在地图上所有的主机，这样才能看到他们。从这一点来说，你应该能够打开地图，例如https://your.server.com/nagios/nagmap/网址。如果打开的页面是空的，那么在读取或解析status.dat的文件有一些问题。不幸的是，nagmap不提供调试功能，所以你应该打开marker.php 如https://your.server.com/nagios/nagmap/marker.php，并寻找到它的输出然后看哪里的问题。很有可能你会需要一些基本的PHP知识。顺便说一句，文件marker.php包含标记图像的路径，所以你可以很容易地改变他们从默认。
+
+在地图上所有的主机，这样才能看到他们。从这一点来说，你应该能够打开地图，例如https://your.server.com/nagios/nagmap
+
+网址。如果打开的页面是空的，那么在读取或解析status.dat的文件有一些问题。不幸的是，nagmap不提供调试功能，所以你应该
+
+打开marker.php 如https://your.server.com/nagios/nagmap/marker.php，并寻找到它的输出然后看哪里的问题。很有可能你会需
+
+要一些基本的PHP知识。顺便说一句，文件marker.php包含标记图像的路径，所以你可以很容易地改变他们从默认。
 
 英文原文:[linuxscrew](http://www.linuxscrew.com/2012/07/02/nagios-map-geolocation/)  翻译者:[新世纪linux社区翻译组](https://github.com/21ops/21opsttug)
