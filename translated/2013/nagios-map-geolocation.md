@@ -54,7 +54,5 @@ Nagios的使用NagMap插件有可能基于谷歌地图中的主机和它们的�
 要一些基本的PHP知识。顺便说一句，文件marker.php包含标记图像的路径，所以你可以很容易地改变他们从默认。
 
 英文原文:[linuxscrew](http://www.linuxscrew.com/2012/07/02/nagios-map-geolocation/) 
-
 翻译者:[新世纪linux社区翻译组](https://github.com/21ops/21opsttug)
-
 社区地址:[新世纪Linux社区](http://www.21ops.com)
