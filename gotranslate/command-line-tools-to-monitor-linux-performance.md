@@ -83,8 +83,10 @@ Htop is a much advanced interactive and real time Linux process monitoring tool.
 ```Shell
 #htop
 ```
+<img src='http://www.tecmint.com/wp-content/uploads/2012/08/htop-3.jpg'>
 
 Htop Command Example Screenshot
+
 For Htop installation read : [Install Htop (Linux Process Monitoring) in Linux](http://www.tecmint.com/install-htop-linux-process-monitoring-for-rhel-centos-fedora/)
 
 ##7. Iotop – Monitor Linux Disk I/O
@@ -93,6 +95,8 @@ Iotop is also much similar to top command and Htop program, but it has accountin
 ```Shell
 # iotop
 ```
+
+<img src='http://www.tecmint.com/wp-content/uploads/2012/07/iotop-Screen.jpg'>
 
 Iotop Command Example Screenshot
 
@@ -122,7 +126,10 @@ For more Iostat usage and examples visit : [6 Iostat Command Examples in Linux](
 
 IPTraf is an open source console-based real time network (IP LAN) monitoring utility for Linux. It collects a variety of information such as IP traffic monitor that passes over the network, including TCP flag information, ICMP details, TCP/UDP traffic breakdowns, TCP connection packet and byne counts. It also gathers information of general and detaled interface statistics of TCP, UDP, IP, ICMP, non-IP, IP checksum errors, interface activity etc.
 
+<img src='http://www.tecmint.com/wp-content/uploads/2013/02/IPTraf2.png'>
+
 IP Traffic Monitor
+
 For more information and usage of IPTraf tool, please visit : [IPTraf Network Monitoring Tool](http://www.tecmint.com/real-time-interactive-ip-lan-monitoring-with-iptraf-tool/)
 
 ##10. Psacct or Acct – Monitor User Activity
@@ -136,11 +143,15 @@ For installation and example usage of commands read the article [on Monitor User
 Monit is a free open source and web based process supervision utility that automatically monitors and managers system processes, programs, files, directories, permissions, checksums and filesystems.
 It monitors services like Apache, MySQL, Mail, FTP, ProFTP, Nginx, SSH and so on. The system status can be viewed from the command line or using it own web interface.
 
+<img src='http://www.tecmint.com/wp-content/uploads/2013/02/Monit-Monitoring.jpg'>
+
 Monit Linux Process Monitoring
 Read More : [Linux Process Monitoring with Monit](http://www.tecmint.com/how-to-install-and-setup-monit-linux-process-and-services-monitoring-program/)
 
 ##12. NetHogs – Monitor Per Process Network Bandwidth
 NetHogs is an open source nice small program (similar to Linux top command) that keeps a tab on each process network activity on your system. It also keeps a track of real time network traffic bandwidth used by each program or application.
+
+<img src='http://www.tecmint.com/wp-content/uploads/2013/02/NetHogs-bandwidth-Monitoring.jpg'>
 
 NetHogs Linux Bandwidth Monitoring
 Read More : [Monitor Linux Network Bandwidth Using NetHogs](http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/)
@@ -149,6 +160,8 @@ Read More : [Monitor Linux Network Bandwidth Using NetHogs](http://www.tecmint.c
 
 iftop is another terminal-based free open source system monitoring utility that displays a frequently updated list of network bandwidth utilization (source and destination hosts) that passing through the network interface on your system. iftop is considered for network usage, what ‘top‘ does for CPU usage. iftop is a ‘top‘ family tool that monitor a selected interface and displays a current bandwidth usage between two hosts.
 
+<img src='http://www.tecmint.com/wp-content/uploads/2013/04/iftop.png'>
+
 iftop – Network Bandwidth Monitoring
 
 Read More : [iftop – Monitor Network Bandwidth Utilization](http://www.tecmint.com/install-iftop-bandwidth-monitoring-tool-in-rhel-centos-fedora/)
@@ -156,6 +169,7 @@ Read More : [iftop – Monitor Network Bandwidth Utilization](http://www.tecmint
 ##14. Monitorix – System and Network Monitoring
 Monitorix is a free lightweight utility that is designed to run and monitor system and network resources as many as possible in Linux/Unix servers. It has a built in HTTP web server that regularly collects system and network information and display them in graphs. It Monitors system load average and usage, memory allocation, disk driver health, system services, network ports, mail statistics (Sendmail, Postfix, Dovecot, etc), MySQL statistics and many more. It designed to monitor overall system performance and helps in detecting failures, bottlenecks, abnormal activities etc.
 
+<img src='http://www.tecmint.com/wp-content/uploads/2013/04/Monitorix-Monitoring-592x450.png'>
 Monitorix Monitoring
 Read More : [Monitorix a System and Network Monitoring Tool for Linux](http://www.tecmint.com/monitorix-a-lightweight-system-and-network-monitoring-tool-for-linux/)
 
