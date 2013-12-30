@@ -194,3 +194,5 @@ Nagios is an leading open source powerful monitoring system that enables network
 Read More : [Install Nagios Monitoring System to Monitor Remote Linux/Windows Hosts](http://www.tecmint.com/install-nagios-in-linux/)
 
 We would like to know what kind of monitoring programs you use to monitor performance of your Linux servers? If we’ve missed any important tool that you would like us to include in this list, please inform us via comments and please don’t forget to share it.
+
+英文原文:[tecmint](http://www.tecmint.com/command-line-tools-to-monitor-linux-performance/) 翻译者:[新世纪linux区翻译组](https://github.com/21ops/21opsttug) 社区地址:[新世纪Linux社区](http://www.21ops.com)

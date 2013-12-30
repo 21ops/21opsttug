@@ -99,3 +99,4 @@ Top output keep refreshing until you press 'q'. With below command top command w
 ```
 There are number of arguments to know more about top command you may refer man page of top command. Please share it if you find this article useful through our comment box below.
 
+英文原文:[tecmint](http://www.tecmint.com/12-top-command-examples-in-linux/) 翻译者:[新世纪linux区翻译组](https://github.com/21ops/21opsttug) 社区地址:[新世纪Linux社区](http://www.21ops.com)

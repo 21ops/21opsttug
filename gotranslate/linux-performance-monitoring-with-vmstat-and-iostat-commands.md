@@ -225,3 +225,5 @@ sysstat version 9.0.4
 ```
 
 Note: vmstat and iostat contains number of columns and flags which may not possible to explain in details. If you want to know more about it you may refer man page of vmstat and iostat. Please share it if you find this article is useful through our comment box below.
+
+英文原文:[tecmint](http://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/) 翻译者:[新世纪linux社区翻译组](https://github.com/21ops/21opsttug) 社区地址:[新世纪Linux社区](http://www.21ops.com)
