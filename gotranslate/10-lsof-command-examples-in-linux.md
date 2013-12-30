@@ -1,4 +1,4 @@
-#10-lsof-command-examples-in-linux
+#10 lsof Command Examples in Linux
 This is our on-going series of Linux commands and in this article we are going to review lsof command with practical examples. lsof meaning ‘LiSt Open Files’ is used to find out which files are open by which process. As we all know Linux/Unix considers everything as a files (pipes, sockets, directories, devices etc). One of the reason to use lsof command is when a disk cannot be unmounted as it says the files are being used. With the help of this command we can easily identify the files which are in use.
 
 ##1. List all Open Files with lsof Command
