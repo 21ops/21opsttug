@@ -61,6 +61,7 @@ Top – Set Refresh Time
 
 ##7. Kill running process with argument 'k'.
 You can kill a process after finding PID of process by pressing ‘k‘ option in running top command without exiting from top window as shown below.
+
 <img src='http://www.tecmint.com/wp-content/uploads/2012/08/Top-Kill-Process.jpg'>
 
 Top-Kill Process ID
