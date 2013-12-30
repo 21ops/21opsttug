@@ -175,3 +175,4 @@ Sometimes you may have to kill all the processes for a specific user. Below comm
 ```
 > Note: Here, it’s not possible to give example of all available options, this guide is only to show how lsof command can be use. You may refer man page of lsof command to know more about it. Please share it if you find this article is useful through our comment box below.
 
+英文原文:[tecmint](http://www.tecmint.com/10-lsof-command-examples-in-linux/) 翻译者:[新世纪linux区翻译组](https://github.com/21ops/21opsttug) 社区地址:[新世纪Linux社区](http://www.21ops.com)
