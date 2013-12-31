@@ -4,9 +4,9 @@ This is the part of our on-going series of commands in Linux. We have covered ba
 
 You might also be interested in following tutorials :
 
-*[Htop (Linux Process Monitoring) tool for RHEL, CentOS & Fedora](http://www.tecmint.com/install-htop-linux-process-monitoring-for-rhel-centos-fedora/)
+[Htop (Linux Process Monitoring) tool for RHEL, CentOS & Fedora](http://www.tecmint.com/install-htop-linux-process-monitoring-for-rhel-centos-fedora/)
 
-*[Iotop (Monitor Linux Disk I/O) in RHEL, CentOS and Fedora](http://www.tecmint.com/install-iotop-monitor-linux-disk-io-in-rhel-centos-and-fedora/)
+[Iotop (Monitor Linux Disk I/O) in RHEL, CentOS and Fedora](http://www.tecmint.com/install-iotop-monitor-linux-disk-io-in-rhel-centos-and-fedora/)
 
 ##1. Display of Top Command
 In this example, it will show information like tasks, memory, cpu and swap. Press 'q' to quit window.
