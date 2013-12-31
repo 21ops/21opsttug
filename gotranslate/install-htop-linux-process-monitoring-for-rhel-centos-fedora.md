@@ -12,10 +12,12 @@ Let us install Htop on RHEL 6.3/6.2/6.1/6/5.8, CentOS 6.3/6.2/6.1/6/5.8 and Fedo
 
 ```Shell
 ## For RHEL 5, CentOS 5 & Fedora ##
+
 #wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.i386.rpm
 #rpm -ihv rpmforge-release*.rf.i386.rpm
-
+```
 ## For RHEL 6 and CentOS 6
+```Shell
 #wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.i686.rpm
 #rpm -ihv rpmforge-release*.rf.i686.rpm
 ```
