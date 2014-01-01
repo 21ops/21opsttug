@@ -1,4 +1,4 @@
-#为RHEL CentOS的和Fedora安装HTOP（Linux进程监控）
+#为RHEL CentOS和Fedora安装HTOP（Linux进程监控）
 
 我们在前面的一系列系统监控文章中，介绍了iotop的（监控linux的磁盘I/O）工具，今天给大家讲解的是，安装在CentOS6.3机器上的一个 系统进程监视工具，它叫HTOP;让我们来看看它是如何工作的吧。它可以正常的在RedHat/Fedora运行。可以这么说htop是Unix/Linux top命令的替代工具。我已经安装它了，非常高兴与大家分享，如果你有什么好使用经验，你可以通过留言与我们分享您的使用经验。现在开始安装使用htop。
 
@@ -52,8 +52,8 @@ Now run the htop monitoring tool by executing following command on the terminal.
 
 <img src='http://img01.21ops.com/images/2013/12/31/22b6b6ab8838681f54143eebc3bdea9c.jpeg'>
  
-
                    HTOP进程查看器
+
 按F2或S设置菜单–>有四列，即设置，左栏，右栏和可用meters。
 
 <img src='http://img01.21ops.com/images/2013/12/31/1bcf2a7b5a07a7cbb49ca02d2931cea7.jpeg'>
