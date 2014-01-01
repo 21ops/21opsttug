@@ -50,7 +50,7 @@ Iotop Disk I/O Monitoring Preview
 
 ##Step 4: Iotop Usage
 To list all the usage and options of iotop command, run the following command to check the man pages.
-``Shell
+```Shell
 #man iotop
 ```
 Some important iotop usage and keyboard shortcuts.
